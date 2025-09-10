@@ -2642,8 +2642,25 @@
         color: red;
       }
     </style>
+    <style>
+      .mobile-nav{display:none}
+      @media (max-width: 1024px){
+        body{padding-top:64px}
+        .mobile-nav{display:block;position:fixed;top:0;left:0;right:0;z-index:1000000100;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+        .mobile-nav .container{display:flex;justify-content:space-around;align-items:center;height:56px}
+        .mobile-nav a{font-weight:700;color:#171717}
+        #GROUP421,#GROUP427,#GROUP430{display:none !important}
+      }
+    </style>
   </head>
   <body>
+    <div class="mobile-nav">
+      <div class="container">
+        <a href="#" id="mobile-nav-home">Home</a>
+        <a href="https://hoangtam101.github.io/lighthouse/policy" id="mobile-nav-privacy">Privacy</a>
+        <a href="https://hoangtam101.github.io/lighthouse/term" id="mobile-nav-term">Term</a>
+      </div>
+    </div>
     <div class="ladi-wraper">
       <div id="SECTION_HOME" class="ladi-section">
         <div class="ladi-section-background"></div>
@@ -3178,6 +3195,13 @@
 
       // Handle Home button click
       $('#GROUP421').click(function(e) {
+        e.preventDefault();
+        updateURL('/');
+        scrollToSection('SECTION_HOME');
+      });
+
+      // Handle Mobile Home click
+      $('#mobile-nav-home').click(function(e) {
         e.preventDefault();
         updateURL('/');
         scrollToSection('SECTION_HOME');
