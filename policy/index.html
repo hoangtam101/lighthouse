@@ -1,238 +1,106 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>LightHouse App - Privacy Policy</title>
-    <meta http-equiv="Cache-Control" content="no-cache" />
-    <meta http-equiv="Expires" content="-1" />
-    <meta name="LightHouse App" content="" />
-    <meta name="description" content="LightHouse Privacy Policy" />
-    
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-    <link rel="canonical" href="policy.html" />
-    <meta property="og:url" content="http://hoangtam101.github.io/lighthouse/policy" />
-    <meta property="og:title" content="LightHouse App - Privacy Policy" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/hoangtam101/lighthouse/master/nhtam.png" />
-    <meta property="og:description" content="LightHouse Privacy Policy" />
-    <meta name="format-detection" content="telephone=no" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin />
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open%20Sans:bold,regular|Montserrat:bold,regular|Roboto:bold,regular&amp;display=swap" as="style" onload="this.onload = null;this.rel = 'stylesheet';" />
-    
-    <style>
-      body {
-        font-family: "Open Sans", sans-serif;
-        background-color: #fff;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-      }
-      
-      .container {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-      
-      .header {
-        text-align: center;
-        margin-bottom: 40px;
-        padding: 40px 0;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        margin: -20px -20px 40px -20px;
-      }
-      
-      .header h1 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 48px;
-        margin-bottom: 10px;
-        font-weight: bold;
-      }
-      
-      .header p {
-        font-size: 18px;
-        opacity: 0.9;
-      }
-      
-      .content {
-        background: white;
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        margin-bottom: 40px;
-      }
-      
-      .content h2 {
-        font-family: "Montserrat", sans-serif;
-        color: #333;
-        font-size: 24px;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        border-bottom: 2px solid #667eea;
-        padding-bottom: 10px;
-      }
-      
-      .content h3 {
-        font-family: "Montserrat", sans-serif;
-        color: #555;
-        font-size: 20px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-      }
-      
-      .content p {
-        color: #666;
-        margin-bottom: 15px;
-        text-align: justify;
-      }
-      
-      .content ul {
-        margin-bottom: 20px;
-        padding-left: 20px;
-      }
-      
-      .content li {
-        color: #666;
-        margin-bottom: 8px;
-        line-height: 1.6;
-      }
-      
-      .content li strong {
-        color: #333;
-        font-weight: bold;
-      }
-      
-      .content h2 {
-        margin-top: 40px;
-      }
-      
-      .content h3 {
-        margin-top: 30px;
-      }
-      
-      .back-button {
-        display: inline-block;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 12px 30px;
-        text-decoration: none;
-        border-radius: 25px;
-        font-weight: bold;
-        transition: transform 0.3s ease;
-        margin-bottom: 20px;
-      }
-      
-      .back-button:hover {
-        transform: translateY(-2px);
-        color: white;
-        text-decoration: none;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      
-      .footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #f8f9fa;
-        margin: 40px -20px -20px -20px;
-        border-top: 1px solid #dee2e6;
-      }
-      
-      .footer p {
-        color: #666;
-        margin: 0;
-      }
-      
-      @media (max-width: 768px) {
-        .container {
-          padding: 10px;
-        }
-        
-        .header {
-          margin: -10px -10px 20px -10px;
-          padding: 30px 20px;
-        }
-        
-        .header h1 {
-          font-size: 36px;
-        }
-        
-        .content {
-          padding: 20px;
-        }
-        
-        .footer {
-          margin: 20px -10px -10px -10px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <h1>LightHouse App</h1>
-        <p>Privacy Policy</p>
-      </div>
-      
-      <a href="/" class="back-button">← Back to Home</a>
-      
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>LightHouse - Privacy Policy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root{
+      --bg:#fafafa;
+      --fg:#111;
+      --muted:#666;
+      --card:#ffffff;
+      --border:#eaeaea;
+      --accent:#0b5fff;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,"Helvetica Neue",Arial,"Noto Sans",sans-serif;line-height:1.7}
+    .container{max-width:900px;margin:40px auto;padding:0 20px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,.04)}
+    .content{padding:36px}
+    h1{font-size:28px;line-height:1.25;margin:0 0 16px}
+    h2{font-size:22px;line-height:1.35;margin:28px 0 8px}
+    p{margin:12px 0}
+    ul{margin:8px 0 16px 20px}
+    li{margin:6px 0}
+    .muted{color:var(--muted)}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    /* Header */
+    .top-nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:#fff;border-bottom:1px solid var(--border);box-shadow:0 2px 10px rgba(0,0,0,.04)}
+    .top-nav .wrap{max-width:900px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:700;color:var(--fg);text-decoration:none}
+    .nav-links{display:flex;gap:18px}
+    .nav-links a{color:var(--fg);font-weight:600;text-decoration:none}
+    body{padding-top:64px}
+    @media (max-width:600px){
+      .content{padding:22px}
+      h1{font-size:24px}
+      h2{font-size:20px}
+      .top-nav .wrap{padding:10px 16px}
+      .nav-links{gap:12px}
+    }
+  </style>
+</head>
+<body>
+  <header class="top-nav">
+    <div class="wrap">
+      <a class="brand" href="https://hoangtam101.github.io/lighthouse/">LightHouse</a>
+      <nav class="nav-links">
+        <a href="https://hoangtam101.github.io/lighthouse/">Home</a>
+        <a href="https://hoangtam101.github.io/lighthouse/policy">Privacy</a>
+        <a href="https://hoangtam101.github.io/lighthouse/term">Term</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="card">
       <div class="content">
+        <h1>Privacy Policy</h1>
+
         <h2>General</h2>
-        <p>LightHouse ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by LightHouse.</p>
-        <p>This Privacy Policy applies to our website, and its associated subdomains (collectively, our "Service") alongside our application, LightHouse. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.</p>
-        
-        <h2>Definitions and Key Terms</h2>
+        <p>LightHouse (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by LightHouse.</p>
+        <p>This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, LightHouse. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.</p>
+
+        <h2>Definitions and key terms</h2>
         <p>To help explain things as clearly as possible in this Privacy Policy, every time any of these terms are referenced, are strictly defined as:</p>
         <ul>
-          <li><strong>Cookie:</strong> small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you such as your language preference or login information.</li>
-          <li><strong>Company:</strong> when this policy mentions "Company," "we," "us," or "our," it refers to HubX, Çınarlı Mahallesi Ankara Caddesi No:15 Mistral Ofis Binası Kat:41, D:411, 35170 Konak/İzmir that is responsible for your information under this Privacy Policy.</li>
-          <li><strong>Country:</strong> where LightHouse or the owners/founders of LightHouse are based, in this case is Turkey</li>
-          <li><strong>Customer:</strong> refers to the company, organization or person that signs up to use the LightHouse Service to manage the relationships with your consumers or service users.</li>
-          <li><strong>Device:</strong> any internet connected device such as a phone, tablet, computer or any other device that can be used to visit LightHouse and use the services.</li>
-          <li><strong>IP address:</strong> Every device connected to the Internet is assigned a number known as an Internet protocol (IP) address. These numbers are usually assigned in geographic blocks. An IP address can often be used to identify the location from which a device is connecting to the Internet.</li>
-          <li><strong>Personnel:</strong> refers to those individuals who are employed by LightHouse or are under contract to perform a service on behalf of one of the parties.</li>
-          <li><strong>Personal Data:</strong> any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</li>
-          <li><strong>Service:</strong> refers to the service provided by LightHouse as described in the relative terms (if available) and on this platform.</li>
-          <li><strong>Third-party service:</strong> refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.</li>
-          <li><strong>Website:</strong> LightHouse's site, which can be accessed via this URL:</li>
-          <li><strong>You:</strong> a person or entity that is registered with LightHouse to use the Services.</li>
+          <li>Cookie: small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you such as your language preference or login information.</li>
+          <li>Company: when this policy mentions “Company,” “we,” “us,” or “our,” it refers to HubX, Çınarlı Mahallesi Ankara Caddesi No:15 Mistral Ofis Binası Kat:41, D:411, 35170 Konak/İzmir that is responsible for your information under this Privacy Policy.</li>
+          <li>Country: where LightHouse or the owners/founders of LightHouse are based, in this case is Turkey</li>
+          <li>Customer: refers to the company, organization or person that signs up to use the LightHouse Service to manage the relationships with your consumers or service users.</li>
+          <li>Device: any internet connected device such as a phone, tablet, computer or any other device that can be used to visit LightHouse and use the services.</li>
+          <li>IP address: Every device connected to the Internet is assigned a number known as an Internet protocol (IP) address. These numbers are usually assigned in geographic blocks. An IP address can often be used to identify the location from which a device is connecting to the Internet.</li>
+          <li>Personnel: refers to those individuals who are employed by LightHouse or are under contract to perform a service on behalf of one of the parties.</li>
+          <li>Personal Data: any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</li>
+          <li>Service: refers to the service provided by LightHouse as described in the relative terms (if available) and on this platform.</li>
+          <li>Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.</li>
+          <li>Website: LightHouse's site, which can be accessed via this URL:</li>
+          <li>You: a person or entity that is registered with LightHouse to use the Services.</li>
         </ul>
-        
-        <h2>Information Automatically Collected</h2>
+
+        <h2>Information automatically collected</h2>
         <p>There is some information like your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our platform. This information may be used to connect your computer to the Internet. Other information collected automatically could be a login, e-mail address, password, computer and connection information such as browser plug-in types and versions and time zone setting, operating systems and platforms, purchase history, (we sometimes aggregate with similar information from other Users), the full Uniform Resource Locator (URL) clickstream to, through and from our Website that may include date and time; cookie number; parts of the site you viewed or searched for; and the phone number you used to call our Customer Services. We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects) or similar data on certain parts of our Website for fraud prevention and other purposes. During your visits, we may use software tools such as JavaScript to measure and collect session information including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page. We may also collect technical information to help us identify your device for fraud prevention and diagnostic purposes.</p>
         <p>We automatically collect certain information when you visit, use or navigate the platform. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about who and when you use our and other technical information. This information is primarily needed to maintain the security and operation of our platform, and for our internal analytics and reporting purposes.</p>
-        
+
         <h2>Collection of Personal Data and Method</h2>
         <p>LightHouse may process your personal data for the purposes specified in this Privacy Policy.</p>
         <p>The personal data of users collected and used by LightHouse in particular, are as follows: phone number which we will receive once you contact LightHouse, and identifier for advertisers designated in your mobile device used in accessing our services (The Identifier for Advertisers-IDFA), identifier for vendors/developers designated your mobile device (The Identifier for Vendors-IDVF) and Internet Protocol Address-IP Address).</p>
-        
+
         <h2>Data Categories and Data Types</h2>
         <ul>
-          <li><strong>Identity Information:</strong> Name and surname</li>
-          <li><strong>Contact Information:</strong> Phone number, e-mail address</li>
-          <li><strong>Process Security:</strong> Internet traffic data (network movements, IP address, visit data, time and date information), device name, In-app purchase history, identifier for advertisers designated in your mobile device used in accessing our services (if you give a permission, the Identifier for Advertisers-IDFA), identifier for vendors/developers designated your mobile device (The Identifier for Vendors-IDVF)</li>
-          <li><strong>Visual and Audio Records:</strong> Facial feature data</li>
-          <li><strong>Customer Transaction:</strong> Order information</li>
-          <li><strong>Marketing Data:</strong> IDFA, IDVF</li>
+          <li>Identity Information: Name and surname</li>
+          <li>Contact Information: Phone number, e-mail address</li>
+          <li>Process Security: Internet traffic data (network movements, IP address, visit data, time and date information), device name, In-app purchase history, identifier for advertisers designated in your mobile device used in accessing our services (if you give a permission, the Identifier for Advertisers-IDFA), identifier for vendors/developers designated your mobile device (The Identifier for Vendors-IDVF)</li>
+          <li>Visual and Audio Records: Facial feature data</li>
+          <li>Customer Transaction: Order information</li>
+          <li>Marketing Data: IDFA, IDVF</li>
         </ul>
         <p>We may collect your above mentioned data directly from you through electronic or physical mediums, your mobile device, third party applications or third party sources which you can access our application through these mediums such as Apple App Store, Google Play App Store, Amazon App Store (similar platforms together with "App Stores"), for the purposes of compliance with legal obligations, enhancing our services, administering your use of our services, as well as enabling you to enjoy and easily navigate our services.</p>
         <p>We may collect your Log Data generated while you are using our services/applications (through our products or third party products). This Log Data may include information such as your device's Internet Protocol ("IP") address, device name, operating system version, the configuration of the app when utilizing our service/application, the time/date of your use of the service/application, and other statistics.</p>
-        
+
         <h2>How We Use Your Information</h2>
         <p>We use your information for a variety of business purposes, including to provide our Services, for administrative purposes, and to market our products and Services, as described below.</p>
-        
+
         <h3>Provide Our Services</h3>
         <p>We use your information to fulfill our contract with you and provide you with our Services, such as:</p>
         <ul>
@@ -243,9 +111,8 @@
           <li>(e) Communicating with you about your account, activities on our Services, and policy changes; and</li>
           <li>(f) Processing your financial information and other payment methods for products or Services purchased.</li>
         </ul>
-        
+
         <h3>Administrative Purposes</h3>
-        <p>We use your information for various administrative purposes, such as:</p>
         <ul>
           <li>(a) Pursuing our legitimate interests such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention;</li>
           <li>(b) Detecting security incidents, protecting against malicious, deceptive, fraudulent or illegal activity, and prosecuting those responsible for that activity;</li>
@@ -260,35 +127,36 @@
           <li>(k) Enforcing our agreements and policies; and</li>
           <li>(l) Complying with our legal obligations.</li>
         </ul>
-        
+
         <h3>Marketing and Advertising our Products and Services</h3>
-        <p>We may use personal information to tailor and provide you with content and advertisements. We may provide you with these materials as permitted by applicable law. Some of the ways we may market to you include email campaigns, custom audiences advertising, and "interest-based" or "personalized advertising," including through cross-device tracking.</p>
-        <p>If you have any questions about our marketing practices or if you would like to opt out of the use of your personal information for marketing purposes, you may contact us at any time as set forth in Section 15 below.</p>
-        
-        <h3>Other Purposes</h3>
+        <p>We may use personal information to tailor and provide you with content and advertisements...</p>
+
+        <h2>Other Purposes</h2>
         <p>We also use your information for other purposes as requested by you or as permitted by applicable law.</p>
-        <p>(a) Share Content with Friends or Colleagues: Our Services may offer various tools and functionalities. For example, we may allow you to provide information about your friends or colleagues through our referral services. Our referral services may allow you to forward or share certain content with a friend or colleague, such as an email inviting your friend to use our Services.</p>
-        
+        <ul>
+          <li>(a) Share Content with Friends or Colleagues: Our Services may offer various tools and functionalities. For example, we may allow you to provide information about your friends or colleagues through our referral services. Our referral services may allow you to forward or share certain content with a friend or colleague, such as an email inviting your friend to use our Services.</li>
+        </ul>
+
         <h2>How We Disclose Your Information</h2>
         <p>We disclose your information to third parties for a variety of business purposes, including to provide our Services, to protect us or others, or in the event of a major business transaction such as a merger, sale, or asset transfer, as described below.</p>
-        
+
         <h3>Disclosures to Provide our Services</h3>
         <p>The categories of third parties with whom we may share your information are described below.</p>
         <ul>
-          <li><strong>(a) Other Users or Third Parties:</strong> When you use the Services, you may choose to share personal information or content with other users or third parties. In addition, certain aspects of your profile may be available to other users.</li>
-          <li><strong>(b) Service Providers:</strong> We may share your personal information with our third-party service providers who use that information to help us provide our Services. This includes service providers that provide us with IT support, hosting, payment processing, customer service, and related services.</li>
-          <li><strong>(c) Business Partners:</strong> We may share your personal information with business partners to provide you with a product or service you have requested. We may also share your personal information to business partners with whom we jointly offer products or services.</li>
-          <li><strong>(d) Advertising Partners:</strong> We may share your personal information, except for your biometric data, with third-party advertising partners. These third-party advertising partners may set Technologies and other tracking tools on our Services to collect information regarding your activities and your device (e.g., your IP address, cookie identifiers, page(s) visited, location, time of day). These advertising partners may use this information (and similar information collected from other services) for purposes of delivering personalized advertisements to you when you visit digital properties within their networks. This practice is commonly referred to as "interest-based advertising" or "personalized advertising."</li>
-          <li><strong>(e) APIs/SDKs:</strong> We may use third-party application program interfaces ("APIs") and software development kits ("SDKs") as part of the functionality of our Services. For more information about our use of APIs and SDKs, please contact us as set forth below.</li>
+          <li>(a) Other Users or Third Parties: When you use the Services, you may choose to share personal information or content with other users or third parties. In addition, certain aspects of your profile may be available to other users.</li>
+          <li>(b) Service Providers: We may share your personal information with our third-party service providers who use that information to help us provide our Services. This includes service providers that provide us with IT support, hosting, payment processing, customer service, and related services.</li>
+          <li>(c) Business Partners: We may share your personal information with business partners to provide you with a product or service you have requested. We may also share your personal information to business partners with whom we jointly offer products or services.</li>
+          <li>(d) Advertising Partners: We may share your personal information, except for your biometric data, with third-party advertising partners. These third-party advertising partners may set Technologies and other tracking tools on our Services to collect information regarding your activities and your device (e.g., your IP address, cookie identifiers, page(s) visited, location, time of day). These advertising partners may use this information (and similar information collected from other services) for purposes of delivering personalized advertisements to you when you visit digital properties within their networks. This practice is commonly referred to as “interest-based advertising” or “personalized advertising.”</li>
+          <li>(e) APIs/SDKs: We may use third-party application program interfaces (“APIs”) and software development kits (“SDKs”) as part of the functionality of our Services. For more information about our use of APIs and SDKs, please contact us as set forth below.</li>
         </ul>
-        
+
         <h3>Disclosures to Protect Us or Others</h3>
-        <p>We may access, preserve, and disclose any information we store associated with you to external parties if we, in good faith, believe doing so is required or appropriate to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena; protect your, our, or others' rights, property, or safety; enforce our policies or contracts; collect amounts owed to us; or assist with an investigation or prosecution of suspected or actual illegal activity.</p>
-        
+        <p>We may access, preserve, and disclose any information we store associated with you to external parties if we, in good faith, believe doing so is required or appropriate to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena; protect your, our, or others’ rights, property, or safety; enforce our policies or contracts; collect amounts owed to us; or assist with an investigation or prosecution of suspected or actual illegal activity.</p>
+
         <h2>Retention of Personal Information</h2>
         <p>We may store the personal information we collect as described in this Privacy Notice for as long as you use our Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements, and comply with applicable laws.</p>
         <p>Notwithstanding the foregoing, we may store biometric data for twenty four (24) hours.</p>
-        
+
         <h2>General Principles Regarding Personal Data Processing</h2>
         <p>In accordance with this Privacy Policy, personal data are processed by HubX as a data controller in line with the basic principles named here:</p>
         <ul>
@@ -298,58 +166,170 @@
           <li>(iv) being limited for the purpose for which they are processed and data minimization; and</li>
           <li>(v) being stored for the period stipulated in the relevant legislation or required for the purpose for which they are processed.</li>
         </ul>
-        
-        <h2>Cookies</h2>
-        <p>LightHouse uses "Cookies" to identify the areas of our website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the performance and functionality of our app but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable or you would be required to enter your login details every time you visit the app as we would not be able to remember that you had logged in previously. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.</p>
-        
-        <h3>Blocking and Disabling Cookies and Similar Technologies</h3>
-        <p>Wherever you're located you may also set your browser to block cookies and similar technologies, but this action may block our essential cookies and prevent our website from functioning properly, and you may not be able to fully utilize all of its features and services. You should also be aware that you may also lose some saved information (e.g. saved login details, site preferences) if you block cookies on your browser. Different browsers make different controls available to you. Disabling a cookie or category of cookie does not delete the cookie from your browser, you will need to do this yourself from within your browser, you should visit your browser's help menu for more information.</p>
-        
-        <h2>Kids' Privacy</h2>
-        <p>We do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
-        
-        <h2>Disclaimer</h2>
-        <p>LightHouse uses OpenAI's GPT3.5 API, but we are not associated with OpenAI. We only use their official API for our app. LightHouse is not affiliated with any government or political entity. The information provided in LightHouse is for informational purposes only and should not be considered official or authoritative.</p>
-        
-        <h2>Changes To Our Privacy Policy</h2>
-        <p>We may change our Service and policies, and we may need to make changes to this Privacy Policy so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to this Privacy Policy and give you an opportunity to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Privacy Policy. If you do not want to agree to this or any updated Privacy Policy, you can delete your account.</p>
-        
-        <h2>Your Consent</h2>
-        <p>We've updated our Privacy Policy to provide you with complete transparency into what is being set when you visit our site and how it's being used. By using our app, registering an account, or making a purchase, you hereby consent to our Privacy Policy and agree to its terms.</p>
-        
+
+        <h2>Purposes of Processing Personal Data and Legal Reasons</h2>
+        <p>Your personal data will be processed via automatic or non-automatic means for the purposes stated below, in accordance with the applicable legislation and articles 5 and 6 of the PDP Law where it is expressly permitted by the laws, the establishment of a contract or direct relation to the execution or performance of the contract and for the legitimate interests of HubX provided that your fundamental rights and freedoms are protected.</p>
+
+        <h3>Purposes of Processing Personal Data</h3>
+        <ul>
+          <li><b>Identity Information</b><br/>execution of activities in compliance with legislation<br/>execution of company/product/service commitment operations</li>
+          <li><b>Contact Information</b><br/>execution of communication activities<br/>execution/auditing of business activities<br/>conducting after-sales support services for goods/services<br/>execution of goods/services sales processes<br/>conducting storage and archive activities<br/>execution of agreement processes<br/>execution of information security processes<br/>conducting audit/ethical activities<br/>execution/audit of business activities</li>
+          <li><b>Process Security</b><br/>conducting activities to ensure business continuity<br/>providing information to authorized persons, institutions and organizations<br/>execution/auditing of business activities<br/>conducting after-sales support services for goods/services</li>
+          <li><b>Customer Transaction</b><br/>execution of goods/services sales processes<br/>conducting activities for customer satisfaction<br/>execution of agreement processes<br/>execution of activities in compliance with legislation</li>
+          <li><b>Visual and Audio Records</b><br/>execution of agreement processes<br/>conducting storage and archive activities<br/>conducting marketing analysis studies</li>
+          <li><b>Marketing Data</b><br/>execution of advertising/campaign/promotion processes</li>
+        </ul>
+        <p>In accordance with this text, your personal data is processed for the following purposes in accordance with the above general conditions</p>
+
+        <h3>Legal Reasons</h3>
+        <ul>
+          <li><b>Identity Information, Contact Information, Visual and Audio Records, Customer Transaction</b><br/>It is necessary to process your personal data, provided that we establish a contractual relationship with you, or that it is directly related to our performance obligation arising from this contract<br/>We have to process data in order to establish a right for you, to exercise and protect this right</li>
+          <li><b>Process Security</b><br/>The law explicitly stipulates the process by which we process your personal data<br/>Conditions that are necessary in order to fulfill our legal obligation</li>
+          <li><b>Marketing Data</b><br/>Your explicit consent is required for:<br/>
+            <ul>
+              <li>Creating user accounts for the service recipients/application users,</li>
+              <li>Customizing our Services, understanding our users and their preferences to enhance user experience and enjoyment using our Services and improve our users' experience,</li>
+              <li>Informing about new products, services and applications and delivering you information regarding advertisements and promotions,</li>
+              <li>Carrying out a digital subscription and In-app purchase processes of service recipients,</li>
+              <li>Carrying out the auto-renewable subscriptions for giving users access to content, services, or premium features in our service,</li>
+              <li>Carrying out the processes of information security,</li>
+              <li>Conducting activities in accordance with legislation,</li>
+              <li>Fulfilling the demands of competent authorities,</li>
+              <li>Conducting the processes of finance and accounting transactions,</li>
+              <li>Conducting communication activities,</li>
+              <li>Conducting the processes of contracts,</li>
+              <li>Carrying out strategic planning activities,</li>
+              <li>Following up requests and complaints,</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Third Party Websites and Applications</h2>
+        <p>HubX Apps; may contain links to other websites that are unknown to HubX and whose content is not controlled...</p>
+
+        <h2>Push Notifications</h2>
+        <p>HubX may occasionally send you push notifications via its mobile applications regarding application upgrades or notifications about our services. You can always edit such communication and notifications through the settings on your device and stop receiving such communications and notifications.</p>
+
+        <p>Your data will be stored for the duration specified in the applicable legislation or for a reasonable time until the purpose of processing cease to exist, or during legal periods of limitation. HubX may continue to store your personal data, even after the expiry of the purpose of its use provided that it is required by other laws or a separate consent is granted by you in this regard. In cases that you allow HubX to store your personal data for additional time by giving your consent, such data shall be immediately deleted, destructed, or anonymized upon the expiry of such additional time or once the purpose of processing no longer exists.</p>
+
+        <h2>Technical and Administrative Measures</h2>
+        <p>HubX stores the personal data it processes in accordance with relevant legislation for periods stipulated in relevant legislation or required for the purpose of processing. HubX undertakes to take all necessary technical and administrative measures and to take the due care to ensure the confidentiality, integrity and security of personal data. In this context, it takes the necessary measures to prevent unlawful processing of personal data, unauthorized access to data, unlawful disclosure, modification or destruction of data. Accordingly, HubX takes the following technical and administrative measures regarding the personal data it processes:</p>
+
+        <ul>
+          <li><b>Anti-virus application</b><br/>On all computers and servers in HubX’s information technology infrastructure, a periodically updated anti-virus application is installed.</li>
+          <li><b>Firewall</b><br/>The data center and disaster recovery centers hosting HubX servers are protected by periodically updated software-loaded firewalls; the relevant next generation firewalls control the internet connections of all staff and provide protection against viruses and similar threats during this control.</li>
+          <li><b>VPN</b><br/>Suppliers can access HubX servers or systems through SSL-VPN defined on Firewalls. A separate SSL-VPN identification has been made for each supplier; with the identification made, the supplier only provides access to the systems that it should use or is authorized to use.</li>
+          <li><b>User identifications</b><br/>HubX employees' authorization to HubX systems is limited only to the extent necessary by job descriptions; in case of any change of authority or duty, systemic authorizations are also updated.</li>
+          <li><b>Information security threat and event management</b><br/>Events that occur on HubX servers and firewalls, are transferred to the "Information Security Threat and Event Management" system. This system alerts the responsible staff when a security threat occurs and allows them to respond immediately to the threat.</li>
+          <li><b>Encryption</b><br/>Sensitive data is stored with cryptographic methods and if required, transferred through environments encrypted with cryptographic methods and cryptographic keys are stored in secure and various environments.</li>
+          <li><b>Logging</b><br/>All transaction records regarding sensitive data are securely logged.</li>
+          <li><b>Two-factor authentication</b><br/>Remote access to sensitive data is allowed through at least two-factor authentication.</li>
+          <li><b>Training</b><br/>In order to increase the awareness of HubX employees against various information security violations and to minimize the impact of the human factor in information violation incidents, trainings are provided to employees at regular intervals.</li>
+          <li><b>Physical data security</b><br/>It ensures that personal data on papers is necessarily stored in lockers and accessed only by authorized persons. Adequate security measures (for situations such as electric leakage, fire, deluge, thievery etc.) are taken based on the nature of the environment where sensitive data is stored.</li>
+          <li><b>Backup</b><br/>HubX periodically backs up the data it stores. As a backup mechanism, it uses the backup facilities provided by the cloud infrastructure providers, as well as the backup solutions it develops when deemed necessary, provided that it is in compliance with relevant legislation and provisions of this Policy.</li>
+          <li><b>Non-disclosure agreement</b><br/>Non-disclosure agreements are concluded with employees taking part in sensitive personal data processing.</li>
+          <li><b>Transfer of sensitive personal data</b><br/>If transfer of sensitive personal data is required through email; such transfer is done through (i) encrypted corporate email or (ii) Registered E-mail.</li>
+        </ul>
+
+        <p>In the event that the personal data is damaged as a result of attacks on HubX Apps or on the HubX system, despite HubX taking the necessary information security measures, or the personal data is obtained by unauthorized third parties, HubX notifies this situation to Users immediately and, if necessary, to relevant data protection authority and takes necessary measures.</p>
+
+        <h2>Transferring Personal Data to Third Parties</h2>
+        <p>The procedures and principles to be applied for transferring of personal data are regulated in articles 8 and 9 of the PDP Law, and the personal and special categories of data of the supplier may be transferred to third parties within the country or abroad since we may use servers and cloud systems located abroad.</p>
+        <p>Your personal data may be transferred abroad for the following reasons</p>
+        <ul>
+          <li>Conducting storage and archive activities</li>
+          <li>Conducting business activities</li>
+          <li>Conducting after-sales support services for goods/services</li>
+          <li>Managing customer relationship management processes</li>
+        </ul>
+        <p>HubX may also transfer your personal data to service providers of our Company, third parties such as Facebook SDK, Adjust and Firebase Analytics which are embedded into our service for the following purposes:</p>
+        <ul>
+          <li>Sharing identity, communication and transaction security information with authorized public institutions and organizations for the purpose of execution of activities in compliance with legislation, monitor and execution of legal affairs, informing authorized persons, institutions and organizations.</li>
+          <li>Sharing identity and contact information to manage after-sales support services, conduct business activities and manage customer relationship management processes.</li>
+          <li>Sharing identity and contact information, by user to third party applications which are integrated to the HubX Apps with the explicit consent of the User.</li>
+        </ul>
+
+        <h2>Personnel</h2>
+        <p>If you are a LightHouse worker or applicant, we collect information you voluntarily provide to us. We use the information collected for Human Resources purposes in order to administer benefits to workers and screen applicants.</p>
+        <p>You may contact us in order to (1) update or correct your information, (2) change your preferences with respect to communications and other information you receive from us, or (3) receive a record of the information we have relating to you. Such updates, corrections, changes and deletions will have no effect on other information that we maintain, or information that we have provided to third parties in accordance with this Privacy Policy prior to such update, correction, change or deletion.</p>
+
+        <h2>Sale of Business</h2>
+        <p>We reserve the right to transfer information to a third party in the event of a sale, merger or other transfer of all or substantially all of the assets of LightHouse or any of its Corporate Affiliates (as defined herein), or that portion of LightHouse or any of its Corporate Affiliates to which the Service relates, or in the event that we discontinue our business or file a petition or have filed against us a petition in bankruptcy, reorganization or similar proceeding, provided that the third party agrees to adhere to the terms of this Privacy Policy.</p>
+
+        <h2>Affiliates</h2>
+        <p>We may disclose information (including personal information) about you to our Corporate Affiliates. For purposes of this Privacy Policy, "Corporate Affiliate" means any person or entity which directly or indirectly controls, is controlled by or is under common control with LightHouse, whether by ownership or otherwise. Any information relating to you that we provide to our Corporate Affiliates will be treated by those Corporate Affiliates in accordance with the terms of this Privacy Policy.</p>
+
         <h2>Governing Law</h2>
         <p>This Privacy Policy is governed by the laws of Turkey without regard to its conflict of laws provision. You consent to the exclusive jurisdiction of the courts in connection with any action or dispute arising between the parties under or in connection with this Privacy Policy except for those individuals who may have rights to make claims under Privacy Shield, or the Swiss-US framework.</p>
         <p>The laws of Turkey, excluding its conflicts of law rules, shall govern this Agreement and your use of the app. Your use of the app may also be subject to other local, state, national, or international laws.</p>
         <p>By using LightHouse or contacting us directly, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, you should not engage with our website, or use our services. Continued use of the website, direct engagement with us, or following the posting of changes to this Privacy Policy that do not significantly affect the use or disclosure of your personal information will mean that you accept those changes.</p>
-        
+
+        <h2>Your Consent</h2>
+        <p>We've updated our Privacy Policy to provide you with complete transparency into what is being set when you visit our site and how it's being used. By using our app, registering an account, or making a purchase, you hereby consent to our Privacy Policy and agree to its terms.</p>
+
+        <h2>Links to Other Websites</h2>
+        <p>This Privacy Policy applies only to the Services. The Services may contain links to other websites not operated or controlled by LightHouse. We are not responsible for the content, accuracy or opinions expressed in such websites, and such websites are not investigated, monitored or checked for accuracy or completeness by us. Please remember that when you use a link to go from the Services to another website, our Privacy Policy is no longer in effect. Your browsing and interaction on any other website, including those that have a link on our platform, is subject to that website’s own rules and policies. Such third parties may use their own cookies or other methods to collect information about you.</p>
+
+        <h2>Advertising</h2>
+        <p>This app may contain third party advertisements and links to third party sites. LightHouse does not make any representation as to the accuracy or suitability of any of the information contained in those advertisements or sites and does not accept any responsibility or liability for the conduct or content of those advertisements and sites and the offerings made by the third parties.</p>
+        <p>Advertising keeps LightHouse and many of the websites and services you use free of charge. We work hard to make sure that ads are safe, unobtrusive, and as relevant as possible.</p>
+        <p>Third party advertisements and links to other sites where goods or services are advertised are not endorsements or recommendations by LightHouse of the third party sites, goods or services. LightHouse takes no responsibility for the content of any of the ads, promises made, or the quality/reliability of the products or services offered in all advertisements.</p>
+
+        <h2>Cookies for Advertising</h2>
+        <p>These cookies collect information over time about your online activity on the app and other online services to make online advertisements more relevant and effective to you. This is known as interest-based advertising. They also perform functions like preventing the same ad from continuously reappearing and ensuring that ads are properly displayed for advertisers. Without cookies, it’s really hard for an advertiser to reach its audience, or to know how many ads were shown and how many clicks they received.</p>
+
+        <h2>Cookies</h2>
+        <p>LightHouse uses "Cookies" to identify the areas of our website that you have visited...</p>
+
+        <h2>Blocking and disabling cookies and similar technologies</h2>
+        <p>Wherever you're located you may also set your browser to block cookies and similar technologies...</p>
+
+        <h2>Payment Details</h2>
+        <p>In respect to any credit card or other payment processing details you have provided us, we commit that this confidential information will be stored in the most secure manner possible.</p>
+
+        <h2>Kids' Privacy</h2>
+        <p>We do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13...</p>
+
+        <h2>Disclaimer</h2>
+        <p>LightHouse uses OpenAI’s GPT3.5 API, but we are not associated with OpenAI...</p>
+
+        <h2>Changes To Our Privacy Policy</h2>
+        <p>We may change our Service and policies, and we may need to make changes to this Privacy Policy...</p>
+
+        <h2>Third-Party Services</h2>
+        <p>We may display, include or make available third-party content...</p>
+
+        <h2>Tracking Technologies</h2>
+        <h3>Local Storage</h3>
+        <p>Local Storage sometimes known as DOM storage...</p>
+
+        <h3>Information Collected Through Microsoft Clarity</h3>
+        <p>Types of Data Processed: Our application uses Microsoft Clarity...</p>
+
+        <h2>Information about General Data Protection Regulation (GDPR)</h2>
+        <p>We may be collecting and using information from you if you are from the European Economic Area...</p>
+
+        <h2>California Residents</h2>
+        <p>The California Consumer Privacy Act (CCPA) requires us to disclose categories of Personal Information...</p>
+
+        <h2>California Online Privacy Protection Act (CalOPPA)</h2>
+        <p>CalOPPA requires us to disclose categories of Personal Information we collect and how we use it...</p>
+        <ul>
+          <li>Right to Know and Access...</li>
+          <li>Right to Equal Service...</li>
+          <li>Right to Delete...</li>
+          <li>Right to request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li>
+        </ul>
+        <p>We do not sell the Personal Information of our users.
+
+        For more information about these rights, please contact us.</p>
         <h2>Contact Us</h2>
         <p>Don't hesitate to contact us if you have any questions.</p>
-        <ul>
-          <li><strong>Via Email:</strong> <a href="mailto:hoangtam.cntt@gmail.com">hoangtam.cntt@gmail.com</a></li>
-          <li><strong>Via this Link:</strong> <a href="https://hoangtam101.github.io/lighthouse/">https://hoangtam101.github.io/lighthouse/</a></li>
-        </ul>
-        
-        <p><strong>Effective Date: January 1, 2024</strong></p>
-      </div>
-      
-      <div class="footer">
-        <p>&copy; 2024 LightHouse App. All rights reserved.</p>
+        <p>Via Email: hoangtam.cntt@gmail.com</p>
+        <p>Via this Link: <a href="https://hoangtam101.github.io/lighthouse/">https://hoangtam101.github.io/lighthouse/</a></p>
       </div>
     </div>
-    
-    <script>
-      $(document).ready(function() {
-        // Smooth scrolling for anchor links
-        $('a[href^="#"]').on('click', function(event) {
-          var target = $(this.getAttribute('href'));
-          if (target.length) {
-            event.preventDefault();
-            $('html, body').stop().animate({
-              scrollTop: target.offset().top - 100
-            }, 1000);
-          }
-        });
-      });
-    </script>
-  </body>
+    <p class="muted" style="text-align:center;margin-top:14px">© LightHouse</p>
+  </div>
+</body>
 </html>
