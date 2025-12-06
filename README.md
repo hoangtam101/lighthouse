@@ -68,4 +68,4 @@ I’m open to collaboration on:
 - **Phone:** +84 973 502 096  
 - **Location:** Ho Chi Minh City, Vietnam  
 
-Thank you for visiting 🙏  
+Thank you for visiting 🙏
